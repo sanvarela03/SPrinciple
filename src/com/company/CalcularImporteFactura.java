@@ -1,6 +1,6 @@
 package com.company;
 
-public class CalcularImpoteFactura implements ICalcularImporte{
+public class CalcularImporteFactura implements ICalcularImporte{
     @Override
     public double calcularImporteTotal(Factura factura) {
         return ((factura.getImporteFactura()-calcularImporteDeduccion(factura))+calcularImporteIVA(factura));

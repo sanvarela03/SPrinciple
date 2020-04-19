@@ -3,7 +3,7 @@ package com.company;
 public class Mostrar implements Printable {
 
     Factura factura;
-    ICalcularImporte calcularImporte = new CalcularImpoteFactura();
+    ICalcularImporte calcularImporte = new CalcularImporteFactura();
 
 
     @Override
