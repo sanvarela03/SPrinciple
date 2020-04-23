@@ -1,20 +1,12 @@
-package com.company;
+package com.company.whitOprinciple;
 
 import java.util.Date;
 
 public class Factura {
-
     private String codigo;
     private Date fechaEmision;
     private double importeFactura;
     private double porcentajeDeduccion;
-
-    public Factura(String codigo, Date fechaEmision, double importeFactura, double porcentajeDeduccion) {
-        this.codigo = codigo;
-        this.fechaEmision = fechaEmision;
-        this.importeFactura = importeFactura;
-        this.porcentajeDeduccion = porcentajeDeduccion;
-    }
 
     public Factura(double importeFactura, double porcentajeDeduccion) {
         this.importeFactura = importeFactura;
@@ -54,4 +46,3 @@ public class Factura {
         this.porcentajeDeduccion = porcentajeDeduccion;
     }
 }
-
